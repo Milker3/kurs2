@@ -7,7 +7,7 @@ const CartListItem = ({ cart, addFlowerInCart, removeFlowerFromCart, deletePurch
     <div className="cart-list-item">
       <div className="cart-list-item__header">
         <div className="cart-list-item__image">
-          <img src={url} alt="Телефон" />
+          <img src={url} alt="Цветок" />
         </div>
         <h4 className='cart-list-item__name'>{name}</h4>
       </div>
