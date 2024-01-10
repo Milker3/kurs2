@@ -7,7 +7,7 @@ const ShopListItem = ({ flower }) => {
     <div className="shop-list-item">
       <div className="shop-list-item__header">
         <div className="shop-list-item__image">
-          <img src={url} alt="Картинка телефона" className="shop-list-item__url" />
+          <img src={url} alt="Картинка цветка" className="shop-list-item__url" />
         </div>
         <h3 className="shop-list-item__name">{name}</h3>
       </div>
